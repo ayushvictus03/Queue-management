@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eHospital Dashboard - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="Images/image1.jpg" alt="NIC eHospital Logo">
+                <h1>eHospital - Simplifying Healthcare Service Delivery</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="statewise.html">State wise Dashboard</a></li>
+                    <li><a href="create-health-id.html">Create Health ID</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="live-status.html">Live Status</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; National Informatics Center, 2018 | All Rights Reserved. | Govt. Of India</p>
+            <p>Updated On September 25, 2023, Monday, 12.15.00</p>
+        </div>
+    </footer>
+</body>
+</html>
